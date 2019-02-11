@@ -20,6 +20,8 @@ function draw() {
   ellipse(x ,y , 20, 20);
   x += xspeed;
   y += yspeed;
+
+  if (x < 0 || x > width)
 }
 function mousePressed() {
   //fill(0,0,100);
