@@ -1,20 +1,29 @@
 // Project Title
-// Your Name
+// Leif Butler
 // Date
 //
 // Extra for Experts:
 // - describe what you did to take this project "above and beyond"
-
+let x = 1;
+let y = 1;
+let l = true;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
   //textFont()
   fill(0,0,200);
   textSize(50);
+  textFont('Times New Roman');
   text("leif Butler", windowWidth-250,windowHeight-30);
 }
 
 function draw() {
+  rectMode(CENTER);
+  
+  fill(random(1,255),random(1,255),random(1,255));
+    
+  rect(random(windowWidth),random(windowHeight),50,50);
+  
 
 }  
 keyTyped();
@@ -41,4 +50,5 @@ function keyTyped() {
   }
 
 
-}
+}  
+ 
